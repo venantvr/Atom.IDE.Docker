@@ -1,3 +1,20 @@
 # Atom.IDE.Docker
 
-What is desired here is to carry a Php development environment by Docker images, with Atom as an IDE for example. Atom is a modern, affordable, and powerful text editor. It is a tool that you can customize to do everything, but also use it productively without touching a single configuration file.
+Environnement de developpement PHP sous Docker avec Atom IDE, Apache2, PHP 5.6 et XDebug.
+
+## Structure
+
+| Fichier / Dossier | Role |
+|-|-|
+| `apache2_php5.6/Dockerfile` | Image Docker Apache2 + PHP 5.6 |
+| `atom1.17.1/Dockerfile` | Image Docker Atom IDE |
+| `docker-compose.yml` | Orchestration des conteneurs |
+| `start.sh` | Script de demarrage |
+
+## Stack
+
+- Docker / Docker Compose
+- Apache2
+- PHP 5.6
+- XDebug
+- Atom IDE
