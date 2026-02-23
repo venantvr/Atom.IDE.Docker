@@ -13,8 +13,4 @@ Environnement de developpement PHP sous Docker avec Atom IDE, Apache2, PHP 5.6 e
 
 ## Stack
 
-- Docker / Docker Compose
-- Apache2
-- PHP 5.6
-- XDebug
-- Atom IDE
+[![Stack](https://skillicons.dev/icons?i=docker,html,php,atom&theme=dark)](https://skillicons.dev)
